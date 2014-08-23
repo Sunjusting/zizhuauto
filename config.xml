@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "cc.goodshow.zizhuauto"
+        version     = "1.0.0"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.3.0" />
+        <name>自主品牌汽车展</name>
+
+        <description>
+			2014中国自主品牌汽车博览会
+        </description>
+
+        <author href="http://www.goodshow.cc" email="exposns@gmail.com">
+			GoodShow.cc Team
+        </author>
+		
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		
+		<preference name="orientation" value="portrait" />
+		<preference name="fullscreen" value="false" />
+		
+		<icon src="icon.png" />
+		<gap:splash src="splash.png" />
+
+    </widget>
